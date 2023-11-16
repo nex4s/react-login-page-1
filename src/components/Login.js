@@ -59,7 +59,7 @@ function Login({ onToggle }) {
               alert(isSignUp ? 'Signup Successfully...' : 'Login Successfully...');
             }}
           >
-            {isSignUp ? 'Signup' : 'Login'}
+            {isSignUp ? 'Login' : 'Signup'}
           </button>
           <button
             className='text-center flex items-center justify-center text-blue-600 w-full sm:w-auto'
